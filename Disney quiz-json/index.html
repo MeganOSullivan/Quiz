@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Maths Quiz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/quiz-json.js"></script>
+     <head>
+
+</head>
+<body>
+
+    <h2 id="header_display"></h2>
+    <div id="quizquestions" style="visibility: hidden;"></div>
+
+    <div id="Footer_Display"></div>
+
+    <br>
+
+    <progress id="progressBar" value="0" max="20"></progress><br>
+
+    <h2 id="test_status"></h2> <div id="test"></div>
+
+</body> 
+<footer>
+	
+
+<div id="countdown">10</div>
+<script type="text/javascript">
+  var seconds;
+  var temp;
+ 
+  function countdown() {
+    seconds = document.getElementById('countdown').innerHTML;
+    seconds = parseInt(seconds, 10);
+ 
+    if (seconds == 1) {
+      temp = document.getElementById('countdown');
+      temp.innerHTML = "You didn't answer on time, Sorry";
+      pos=pos+1;
+	  renderQuestion();
+    
+
+	
+		}
+ 
+    seconds--;
+    temp = document.getElementById('countdown');
+    temp.innerHTML = seconds;
+    timeoutMyOswego = setTimeout(countdown, 1000);
+  } 
+ 
+  countdown();
+</script>
+	</div>
+	
+	
+	<iframe id="video" width="740" height="365" src="https://www.youtube.com/embed/GibiNy4d4gc?list=PL4BrNFx1j7E6a6IKg8N0IgnkoamHlCHWa" frameborder="0" allowfullscreen></iframe>
+</footer>
+</html>

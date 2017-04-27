@@ -1,0 +1,46 @@
+div#test
+{
+	border: 20px ridge purple;
+	padding: 10px 40px 40px 40px;  
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 300px;
+	background-color: #F6CAE8;
+	border-radius: 33px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration-color: teal;
+
+}
+	
+body
+{
+	background-image: url("../img/disney-characters.jpg");
+	padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+#progressBar{
+	width: 547px;
+	height: 36px;
+	
+	
+}
+h3{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration-color: teal;
+	
+	
+}
+#countdown{
+	border: thick solid #CA60B6;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,128,238,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,128,238,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,128,238,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,128,238,1.00) 100%);
+	width: 120px;
+	margin-left: 38px;
+}
+#video{
+	border: thick solid #000000;
+}

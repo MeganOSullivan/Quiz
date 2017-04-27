@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Validation Form</title>
+    <link rel="stylesheet" type="text/css" href="css/validationstyles.css">
+</head>
+  <body>
+    <div id="content">
+      <div>
+        <h1 id="banner">Please fill me in to continue</h1>
+      </div>
+      
+        <div class="formLayout">
+          <form id="myForm" method="post" action="index.html" onsubmit="return validate(this)">
+            <label>First Name</label>
+              <input name="forename" type="text" maxlength="32"><br><br>
+            <label>Last Name</label>
+              <td><input type="text" maxlength="32" name="surname"><br><br>
+            <label>Username</label>
+              <input type="text" maxlength="16" name="username"><br><br>
+            <label>Password</label>
+              <input type="text" maxlength="12" name="password"><br><br>
+            <label>Age</label>
+              <input type="text" maxlength="3"  name="age"><br><br>
+            <label>Email</label>
+              <input type="text" maxlength="64" name="email"><br><br>
+            <a href="index.html"><input type="submit" value="Signup" ></a>
+          </form>
+        </div><!-- end div id="description"-->
+      </div><!-- end div id="row"-->
+    </div><!-- end div id="content"-->
+</body>
+<script src="js/form.js"></script>
+</html>
